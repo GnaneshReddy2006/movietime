@@ -1,0 +1,77 @@
+.title{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: crimson;
+    text-decoration: double;
+    background-color: black;
+    height: 50px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+header{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(213, 226, 249);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.menuicon{
+    font-size: 18px;
+}
+input{
+    height: 25px; 
+    width: 200px;
+    color: rgb(25, 24, 24);
+    background-color: rgb(229, 217, 217);
+}
+a{
+    color: rgb(227, 18, 60);
+    font-size: large;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.content{
+    background-image: url(background.jpg);
+    width: 100%;
+    height: 850px;
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+}
+.box{
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    height: 300px;
+    width: 240px;
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:white;
+    font-size: large;
+    font-weight: bolder;
+    border: black 2px solid;
+}
+/* .movienames{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    margin-bottom: 350x;
+    
+}
+.name{
+    color: white;
+    font-size: large;
+   
+} */
